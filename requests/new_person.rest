@@ -2,6 +2,6 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-  "name": "VSCode",
-  "number": 0440000
+  "name": "VSCode2",
+  "number": "200000"  
 }
