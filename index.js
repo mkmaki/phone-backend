@@ -49,6 +49,7 @@ app.get('/api/persons/:id', (req, res) => {
   res.json(person)
 })
 
+// Fix integer numbers to strings
 app.post('/api/persons', (req, res) => {    
   if(!req.body.name || !req.body.number) {    
     return res.status(400).json({ error: 'Name or number is missing'}) // Remember to return here.
